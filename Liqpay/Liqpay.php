@@ -74,9 +74,9 @@ class Payment_Adapter_Liqpay implements FOSSBilling\InjectionAwareInterface
             'supports_one_time_payments' => true,
             'description' => 'You authenticate to the Liqpay API by providing one of your API keys in the request. You can manage your API keys from your account.',
             'logo' => [
-                'logo' => '/Liqpay/Liqpay.png',
-                'height' => '30px',
-                'width' => '65px',
+                'logo' => 'Liqpay/Liqpay.png',
+                'height' => '25px',
+                'width' => '100px',
             ],
             'form' => [
                 'pub_key' => [
